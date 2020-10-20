@@ -354,6 +354,12 @@ body {
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/wagdays-pic.png);
       background-position: center; }
+.card__picture--4 {
+      background-image: linear-gradient(to right bottom, #df1f2d, #b11313), url(../img/bbq-project-pic.png);
+      background-position: center; }
+    .card__picture--5 {
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/blog-project-pic.png);
+      background-position: center; }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
