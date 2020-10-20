@@ -47,6 +47,22 @@
           $color-tertiary-dark
         );
       }
+      
+       &-4 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        );
+      }
+      
+       &-5 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-tertiary-light,
+          $color-tertiary-dark
+        );
+      }
     }
   }
 
@@ -77,6 +93,9 @@
         url(../img/spidey-project-pic.png);
       background-position: center;
     }
+    
+
+   
 
     &--2 {
       background-image: linear-gradient(
@@ -95,6 +114,29 @@
           $color-tertiary-dark
         ),
         url(../img/wagdays-pic.png);
+      background-position: center;
+    }
+    
+    
+//     new images added for new projects
+    
+      &--4 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../img/bbq-project-pic.png);
+      background-position: center;
+    }
+    
+      &--5 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url(../img/blog-project-pic.png);
       background-position: center;
     }
   }
@@ -131,6 +173,22 @@
     }
 
     &--3 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
+    
+     &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
+      );
+    }
+    
+     &--5 {
       background-image: linear-gradient(
         to right bottom,
         rgba($color-tertiary-light, 0.85),
